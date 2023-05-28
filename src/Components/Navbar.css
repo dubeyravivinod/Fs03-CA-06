@@ -1,0 +1,65 @@
+.Navbar{
+    border: 2px solid gray;
+    height: 12vh;
+    display: flex;
+}
+.Nav1{
+    /* border: 2px solid blue; */
+    width: 50%;
+    padding-right: 20px;
+    
+   
+}
+.Nav1 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+}
+.Nav1 h2{
+    margin: 0;
+}
+
+.Nav1 ul li:hover{
+    transform: scale(1.1);
+    font-weight: 700;
+    color: blueviolet;
+}
+
+.Nav2{
+    /* border: 2px solid green; */
+    width: 50%;
+    /* align-items: center; */
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.Nav2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    padding-left: 15rem;
+    /* border: 2px solid green; */
+
+}
+.Nav2 button{
+    height: 32px;
+    color: white;
+    background-color: green;
+    border: 0;
+    width: 80px;
+}
+
+.Nav2 ul li:hover{
+    transform: scale(1.1);
+    font-weight: 700;
+    color: blueviolet;
+}
+.Nav2 button:hover{
+    font-weight: 700;
+    cursor: pointer;
+   
+}

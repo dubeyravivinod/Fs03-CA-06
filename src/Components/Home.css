@@ -1,0 +1,30 @@
+.Home{
+    /* border: 2px solid blue; */
+    background-color: #19325B;
+    height: 49vh;
+}
+.home{
+   /* border: 2px solid red; */
+   height: 6rem;
+   padding-top: 2px;
+   color: white;
+   text-align: center;
+   
+}
+.home #p1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.home button{
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: green;
+    border: 0;
+    font-weight: 550;
+    font-size: 15px;
+    cursor: pointer;
+}
+.home button:hover{
+    transform: scale(1.1);
+}
